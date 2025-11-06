@@ -1,0 +1,16 @@
+# CVDP评估脚本依赖
+# Python 3.8+
+
+# 基础库（Python标准库，无需安装）
+# - subprocess
+# - pathlib
+# - csv
+# - json
+# - re
+# - tempfile
+# - datetime
+
+# 可选：如果需要更高级功能
+# numpy>=1.20.0
+# pandas>=1.3.0
+

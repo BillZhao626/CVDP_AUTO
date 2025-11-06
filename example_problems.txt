@@ -1,0 +1,44 @@
+# CVDP 示例题目（根据论文附录A.1添加）
+
+## 题目格式
+# ID: 问题ID
+# Category: 任务类别（cid02-cid16）
+# Prompt: 任务描述
+# Reference: 参考代码（可选）
+# Testbench: 测试平台代码（可选）
+
+---
+
+## cid02: RTL Code Completion
+
+### Problem 1: 4位加法器
+ID: cid02_001
+Category: cid02
+Prompt: 实现一个4位加法器模块，输入两个4位操作数a和b，输出5位结果sum（包含进位）。
+接口：
+- input [3:0] a
+- input [3:0] b  
+- output [4:0] sum
+
+---
+
+## cid03: Natural Language Spec to Code
+
+### Problem 1: 简单计数器
+ID: cid03_001
+Category: cid03
+Prompt: 实现一个8位向上计数器，具有以下功能：
+- 时钟上升沿触发
+- 同步复位（低电平有效）
+- 使能信号控制计数
+- 计数到255后自动回0
+接口：
+- input clk
+- input rst_n
+- input en
+- output reg [7:0] count
+
+---
+
+## 更多题目请根据论文附录A.1添加...
+
